@@ -1,10 +1,26 @@
-.vs
-.vscode
+# Ignore build outputs and large binaries
+Build/
+Build_*/
+/build/
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
 .DS_Store
-/profile_chart_*.html
-/stats*.html
-/snapshot.bin
-/*.jor
-/detlog.txt
-/Assets/Shaders/VK/*.spv
-/Assets/Shaders/MTL/*.metallib
+*.log
+*.zip
+*.7z
+*.tar
+*.tar.*
+*.bin
+*.dat
+# CMake/IDE
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+.vscode/
+.idea/
+*.user
